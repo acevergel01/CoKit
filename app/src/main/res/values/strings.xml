@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Covid Care</string>
+    <string name="doctor">Doctor</string>
+    <string name="patient">Patient</string>
+    <string name="logo">logo</string>
+</resources>
