@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "351797122212",
+    "firebase_url": "https://cokit-3d127-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "cokit-3d127",
+    "storage_bucket": "cokit-3d127.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:351797122212:android:a1c83d4a42dab232968231",
+        "android_client_info": {
+          "package_name": "com.oriontech.cokit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "351797122212-c7hjis19i9m4mqc5hr3s6jiids941llj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAk16m_N66v-NAl8TEnkuJ-jbm4EZ0Fqo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "351797122212-c7hjis19i9m4mqc5hr3s6jiids941llj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

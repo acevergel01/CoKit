@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:layout_marginTop="20dp"
+    android:background="@color/light_gray"
+    app:layout_constraintTop_toBottomOf="@+id/txtName"
+    tools:layout_editor_absoluteX="-2dp">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/white">
+
+        <TableRow android:background="@color/colorAccent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="5"
+                android:background="@drawable/table_border_header"
+                android:padding="10sp"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:background="@drawable/table_border_header"
+                android:fontFamily="@font/muli"
+                android:gravity="center"
+                android:padding="10sp"
+                android:text="@string/am"
+                android:textColor="@color/white"
+
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:background="@drawable/table_border_header"
+                android:fontFamily="@font/muli"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="@string/nn"
+                android:textColor="@color/white"
+
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:background="@drawable/table_border_header"
+                android:fontFamily="@font/muli"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="@string/pm"
+                android:textColor="@color/white"
+
+                android:textSize="14sp" />
+
+        </TableRow>
+
+        <TableRow android:background="@color/white">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="5"
+                android:background="@drawable/table_border"
+                android:fontFamily="@font/muli"
+                android:padding="10sp"
+                android:text="@string/temperature"
+                android:textColor="@color/black"
+
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/tblTempAm"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="3"
+                android:background="@drawable/table_border"
+                android:gravity="center_horizontal"
+                android:hint="@string/celcius"
+                android:inputType="numberDecimal"
+                android:padding="10sp"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/tblTempNn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="3"
+                android:background="@drawable/table_border"
+                android:gravity="center_horizontal"
+                android:hint="@string/celcius"
+                android:inputType="numberDecimal"
+                android:padding="10sp"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/tblTempPm"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="3"
+                android:background="@drawable/table_border"
+                android:gravity="center_horizontal"
+                android:hint="@string/celcius"
+                android:inputType="numberDecimal"
+                android:padding="10sp"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+        </TableRow>
+
+        <TableRow android:background="@color/white">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="5"
+                android:background="@drawable/table_border"
+                android:fontFamily="@font/muli"
+                android:padding="10sp"
+                android:text="@string/oxygen"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/tblOxygnAm"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="3"
+                android:background="@drawable/table_border"
+                android:gravity="center_horizontal"
+                android:hint="@string/percentsign"
+                android:inputType="numberDecimal"
+                android:padding="10sp"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/tblOxygnNn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="3"
+                android:background="@drawable/table_border"
+                android:gravity="center_horizontal"
+                android:hint="@string/percentsign"
+                android:inputType="numberDecimal"
+                android:padding="10sp"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/tblOxygnPm"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="3"
+                android:background="@drawable/table_border"
+                android:gravity="center_horizontal"
+                android:hint="@string/percentsign"
+                android:inputType="numberDecimal"
+                android:padding="10sp"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>

@@ -1,23 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.oriontech.covidcare">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.oriontech.cokit">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 
     <application
         android:allowBackup="true"
+        android:fullBackupContent="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.CovidCare">
-        <activity android:name=".PatientLogin"></activity>
-        <activity android:name=".DoctorLogin" />
-        <activity android:name=".MainActivity">
+        android:theme="@style/Theme.CoKitNoActionBar"
+        android:usesCleartextTraffic="true"
+        tools:ignore="AllowBackup"
+        tools:targetApi="n">
+        <activity android:name=".ContactDoctor"
+            android:label="Contact Doctor"
+            android:theme="@style/ColoredActionBar" />
+        <activity
+            android:name=".ContactPatient"
+            android:label="Contact Patient"
+            android:theme="@style/ColoredActionBar" />
+        <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".EditProfile"
+            android:label="Edit Profile"
+            android:theme="@style/ColoredActionBar" />
+        <activity
+            android:name=".AboutCovid"
+            android:label="About CoVid-19"
+            android:theme="@style/ColoredActionBar" />
+        <activity
+            android:name=".PatientData"
+            android:label="Patient Data"
+            android:theme="@style/ColoredActionBar" />
+        <activity android:name=".PatientMainActivity" />
+        <activity android:name=".DoctorsLogIn" />
+        <activity android:name=".DoctorsMonitoring" />
+        <activity android:name=".Welcome" />
+        <activity android:name=".HelpAnswers" />
+        <activity
+            android:name=".ResetPassword"
+            android:label="Reset Password" />
+        <activity
+            android:name=".SignUp"
+            android:label="Sign Up" />
+        <activity
+            android:name=".PatientsLogIn"
+            android:label="Log In" />
+        <activity
+            android:name=".AboutUs"
+            android:label="About Us"
+            android:theme="@style/ColoredActionBar" />
+        <activity
+            android:name=".Help"
+            android:label="Help"
+            android:theme="@style/ColoredActionBar" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

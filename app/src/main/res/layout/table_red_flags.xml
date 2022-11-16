@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:background="@color/light_gray"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/redFlag1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/redflag1"
+            android:fontFamily="@font/muli"/>
+
+        <CheckBox
+            android:id="@+id/redFlag2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/redflag2"
+            android:fontFamily="@font/muli"/>
+
+        <CheckBox
+            android:id="@+id/redFlag3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/redflag3"
+            android:fontFamily="@font/muli"/>
+
+        <CheckBox
+            android:id="@+id/redFlag4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/redflag4"
+            android:fontFamily="@font/muli"/>
+
+        <CheckBox
+            android:id="@+id/redFlag5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/redflag5"
+            android:fontFamily="@font/muli"/>
+    </LinearLayout>
+
+</RelativeLayout>

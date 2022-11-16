@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="none">
+        <item
+            android:clickable="false"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Home" />
+        <item
+            android:id="@+id/contactdoctor"
+            android:clickable="false"
+            android:icon="@drawable/ic_baseline_phone_24"
+            android:title="Contact Doctor" />
+        <item
+            android:id="@+id/aboutcovid"
+            android:clickable="false"
+            android:icon="@drawable/ic_baseline_coronavirus_24"
+            android:title="About Covid" />
+        <item
+            android:id="@+id/aboutus"
+            android:clickable="false"
+            android:icon="@drawable/ic_baseline_info_24"
+            android:title="About us" />
+        <item
+            android:id="@+id/help"
+            android:clickable="false"
+            android:icon="@drawable/ic_baseline_help_24"
+            android:title="Help" />
+    </group>
+
+    <item android:title="Account Management">
+
+        <menu>
+            <item
+                android:id="@+id/profile"
+                android:clickable="false"
+                android:icon="@drawable/ic_baseline_person_24"
+                android:title="Profile" />
+            <item
+                android:id="@+id/logout"
+                android:clickable="false"
+                android:icon="@drawable/ic_baseline_power_settings_new_24"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>
